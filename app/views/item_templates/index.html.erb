@@ -1,0 +1,7 @@
+<h1>Link-in-bio</h1>
+
+<% @items.each do |item| %>
+  <div class="item">
+    <a href="<%= item.link_url %>"><%= item.link_description %></a>
+  </div>
+<% end %>
